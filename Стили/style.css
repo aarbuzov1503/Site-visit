@@ -1,0 +1,409 @@
+@font-face {
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('../Fonts/MullerLight.woff2') format('woff2'),
+		url('../Fonts/MullerLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../Fonts/MullerRegular.woff2') format('woff2'),
+		url('../Fonts/MullerRegular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('../Fonts/MullerMedium.woff2') format('woff2'),
+		url('../Fonts/MullerMedium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('../Fonts/MullerBold.woff2') format('woff2'),
+		url('../Fonts/MullerBold.woff') format('woff');
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+h2,
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	font-size: 20x;
+	padding: 20px;
+	color: #293133;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffcf48;
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+}
+
+body {
+	max-width: 1366px;
+	max-height: 2516px;
+	font-family: 'Muller', sans-serif;
+	overflow-x: hidden;
+
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 15px;
+	border-radius: 15px;
+	background-color: #293133;
+
+}
+
+.container-wrap {
+	background-color: #7ecadd;
+}
+
+.main-container-wrap {
+	position: relative;
+	height: 2516px;
+	background-color: #7ecadd;
+}
+
+.main-container {
+	width: auto;
+	height: auto;
+}
+
+.wrap {
+	position: relative;
+	top: 20px;
+}
+
+.name {
+	position: relative;
+	margin-top: 0px;
+	display: flex;
+	place-content: center;
+	font-family: 'Muller';
+	font-weight: 600;
+	font-size: 38px;
+}
+
+.nav-item {
+	color: #AFEEEE;
+}
+
+.nav-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.desc {
+	position: relative;
+	margin: 0;
+	font-family: 'Muller';
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 400;
+}
+
+
+.img {
+	position: relative;
+	padding-left: 2px;
+	float: left;
+	width: 240px;
+	margin-right: 30px;
+
+}
+
+.desc-carusel {
+	position: relative;
+	margin-top: 2px;
+	margin-left: 450px;
+	font-family: 'Muller';
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+}
+
+.carusel {
+	position: relative;
+	top: 210px;
+	left: 10px;
+}
+
+.container_slider_css {
+	float: left;
+	margin: 20px auto;
+	width: 680px;
+	height: 520px;
+	overflow: hidden;
+	position: relative;
+}
+
+.photo_slider_css {
+	position: absolute;
+	animation: round 16s infinite;
+	opacity: 0;
+	width: 100%;
+}
+
+@keyframes round {
+	25% {
+		opacity: 1
+	}
+
+	40% {
+		opacity: 0
+	}
+}
+
+img:nth-child(1) {
+	animation-delay: 12s
+}
+
+img:nth-child(2) {
+	animation-delay: 8s
+}
+
+img:nth-child(3) {
+	animation-delay: 4s
+}
+
+img:nth-child(4) {
+	animation-delay: 0
+}
+
+@media(min-width:0px) and (max-width:320px) {
+	.container_slider_css {
+		width: 80%;
+		height: 190px
+	}
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	.container_slider_css {
+		width: 80%;
+		height: 190px
+	}
+}
+
+
+.job {
+	position: relative;
+	top: 800px;
+	width: auto;
+	height: auto;
+}
+
+.job-head {
+	position: absolute;
+	bottom: 10px;
+	left: 450px;
+	margin: 0;
+	font-family: 'Muller';
+	font-style: normal;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.job-description {
+	position: absolute;
+	padding-left: 10px;
+	width: 720px;
+	height: 280px;
+	margin: 0;
+	font-family: 'Muller';
+	font-style: normal;
+	font-size: 28px;
+	font-weight: 400;
+	border-radius: 15px;
+}
+
+.collage {
+	position: absolute;
+	width: 580px;
+	top: 20px;
+	left: 720px;
+}
+
+/*----------------------Форма-------------*/
+.form {
+	position: relative;
+	width: 290px;
+	height: 300px;
+	margin: 0;
+	top: -460px;
+	left: 430px;
+
+}
+
+.FAQ-desc {
+	position: absolute;
+	margin: 0;
+	margin-left: 450px;
+	font-family: 'Muller';
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.form-wrap {
+	position: relative;
+	top: 1500px;
+}
+
+.obratnuj-zvonok {
+	width: 100%;
+	max-width: 300px;
+	align-items: center;
+}
+
+.form-zvonok {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.form-zvonok div {
+	padding: 15px 0;
+}
+
+.bot-send-mail {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.form-zvonok label,
+.form-zvonok input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form-zvonok label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-zvonok input {
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+
+.form-zvonok label span {
+	color: red;
+}
+
+.form-zvonok .bot-send-mail {
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #009b97;
+	cursor: pointer;
+	border: 3px #9b0000 solid;
+	border-radius: 5px;
+}
+
+.form-zvonok .bot-send-mail:hover {
+	color: #009b97;
+	background-color: #fff;
+}
+
+/*-----footer-------------------*/
+
+.footer-wrap_ikon {
+	position: relative;
+	right: -400px;
+	top: -250px;
+}
+
+.footer {
+	position: relative;
+	top: 1800px;
+	width: 1366px;
+	height: 100px;
+	background-color: #5d84ae;
+}
+
+.footer-item {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+
+
+/* social*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.social a {
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	float: left;
+	background: rgb(255, 255, 255);
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	border-radius: 24px;
+	margin: 0 10px 10px 0;
+	padding: 6px;
+	color: rgb(255, 255, 255);
+}
+
+.odnoklassniki a:hover {
+	background: #f93;
+	color: rgb(255, 255, 255);
+}
+
+.telegram a:hover {
+	background: #249bd7;
+	color: rgb(255, 255, 255);
+}
+
+.whatsapp a:hover {
+	background: #50b154;
+	color: rgb(255, 255, 255);
+}
+
+.vk a:hover {
+	background: #5d84ae;
+	color: rgb(255, 255, 255);
+}
