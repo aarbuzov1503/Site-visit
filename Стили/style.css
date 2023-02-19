@@ -259,6 +259,26 @@ img:nth-child(4) {
 	left: 720px;
 }
 
+.carusel {
+	margin-bottom: 30px;
+}
+
+.job {
+	margin-bottom: 30px;
+}
+
+.form-wrap {
+	margin-bottom: 30px;
+}
+
+.footer {
+	margin-bottom: 30px;
+}
+
+.about {
+	margin-bottom: 30px;
+}
+
 /*----------------------Форма-------------*/
 .form {
 	position: relative;
@@ -368,42 +388,4 @@ img:nth-child(4) {
 	position: absolute;
 	display: flex;
 	justify-content: center;
-}
-
-
-/* social*/
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
-.social a {
-	text-align: center;
-	width: 48px;
-	height: 48px;
-	float: left;
-	background: rgb(255, 255, 255);
-	border: 1px solid #ccc;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-	border-radius: 24px;
-	margin: 0 10px 10px 0;
-	padding: 6px;
-	color: rgb(255, 255, 255);
-}
-
-.odnoklassniki a:hover {
-	background: #f93;
-	color: rgb(255, 255, 255);
-}
-
-.telegram a:hover {
-	background: #249bd7;
-	color: rgb(255, 255, 255);
-}
-
-.whatsapp a:hover {
-	background: #50b154;
-	color: rgb(255, 255, 255);
-}
-
-.vk a:hover {
-	background: #5d84ae;
-	color: rgb(255, 255, 255);
 }
